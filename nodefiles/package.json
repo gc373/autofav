@@ -2,7 +2,7 @@
   "name": "gc373",
   "version": "1.0.0",
   "description": "automated favorite TL",
-  "main": "autofav_20170609.js",
+  "main": "autofav.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

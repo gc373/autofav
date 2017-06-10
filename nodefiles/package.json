@@ -1,0 +1,14 @@
+{
+  "name": "gc373",
+  "version": "1.0.0",
+  "description": "automated favorite TL",
+  "main": "autofav_20170609.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gc373",
+  "license": "MIT",
+  "dependencies": {
+    "twitter": "^1.7.0"
+  }
+}

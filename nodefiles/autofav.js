@@ -70,7 +70,10 @@ function run(){
 run();
 
 function createFav(favId){
-		client.post('favorites/create',{id : favId},function(){
-				console.log("<3 <3 <3 <3\r\n<3 fav it! <3\r\n<3 <3 <3 <3");
+		client.post('favorites/create',{id : favId}.then( function (tweet) {
+			console.log("<3 <3 <3 <3\r\n<3 fav it! <3\r\n<3 <3 <3 <3");
+		})
+			.catch(function (error) {
+				throw error;
 		})
 }
